@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  box-shadow: 0 1px 8px rgba(36, 36, 36, 0.1490196078);
+  padding: 8px 10%;
+  width: 100vw;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  list-style: none;
+}
+@media (max-width: 600px) {
+  header ul {
+    width: 50vw;
+    justify-content: space-between;
+  }
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 88vh;
+  width: 100%;
+}
+
+span {
+  display: block;
+}
+@media (max-width: 600px) {
+  span {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 50%;
+    margin-bottom: 4px;
+  }
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 55%;
+}
+@media (max-width: 600px) {
+  .principal {
+    flex-direction: column;
+  }
+}
+
+.conteudo_redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+}
+.conteudo_redes img {
+  width: 16%;
+  margin: 12px 0;
+}
+@media (max-width: 600px) {
+  .conteudo_redes img {
+    display: none;
+  }
+}
+.conteudo_redes h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .conteudo_redes h1 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0;
+  }
+}
+@media (max-width: 600px) {
+  .conteudo_redes {
+    margin: 32px 0;
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.btn {
+  width: 50%;
+  background-color: #FCA60F;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 4px;
+  margin: 16px 0;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .btn {
+    width: 70%;
+    height: 50px;
+  }
+}
+
+.copo {
+  width: 200px;
+}
+@media (max-width: 600px) {
+  .copo {
+    width: 150px;
+  }
+}
+
+.redes_sociais {
+  width: 50px;
+}
+
+footer {
+  display: none;
+}
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    width: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
